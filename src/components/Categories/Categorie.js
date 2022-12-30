@@ -32,8 +32,8 @@ function Categrie() {
                                         <div class="right-first-image">
                                             <div class="thumb">
                                                 <div class="inner-content">
-                                                    <h4>Playstation Games</h4>
-                                                    <span>Swap your game with another</span>
+                                                    <h4 style={{ color: 'white' }}>Playstation Games</h4>
+                                                    <span style={{ color: 'white' }}>Swap your game with another</span>
                                                 </div>
                                                 <div class="hover-content">
                                                     <div class="inner">
@@ -45,7 +45,7 @@ function Categrie() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <img src={ps} alt="image1" />
+                                                <img style={{ maxHeight: '270px' }} src={ps} alt="image1" />
                                             </div>
                                         </div>
                                     </div>
