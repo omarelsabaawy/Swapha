@@ -2,6 +2,7 @@ import React from 'react'
 import { Card, Col, Row } from 'react-bootstrap'
 import { FaRegCreditCard, FaShoppingBasket, FaAppStore, FaAws } from 'react-icons/fa'
 import { SiApostrophe } from 'react-icons/si'
+import { BiMessage } from 'react-icons/bi'
 
 function WhySwappha() {
     return (
@@ -36,11 +37,11 @@ function WhySwappha() {
                 <Col sm={12} md={6} lg={3}>
                     <Card className='CardHome' style={{ marginTop: "30px", height: '200px' }}>
                         <Card.Header style={{ backgroundColor: 'transparent' }}>
-                            <FaRegCreditCard className='iconsWhySwappha' />
+                            <BiMessage className='iconsWhySwappha' />
                         </Card.Header>
                         <Card.Body>
                             <Card.Text>
-                                <h4 style={{ textAlign: 'center' }}>Supports Credit cards and online payments.</h4>
+                                <h4 style={{ textAlign: 'center' }}>End to end encrypted chatting between users.</h4>
                             </Card.Text>
                         </Card.Body>
                     </Card>

@@ -120,7 +120,7 @@ function ChatBot() {
                                 </Col>
                                 <Col xs={7} sm={7} md={7} lg={7}>
                                     <div class="chatbox__content--header">
-                                        <h4 class="chatbox__heading--header">SWAP.IT Chatbot</h4>
+                                        <h4 class="chatbox__heading--header">SWAPHA Chatbot</h4>
                                         <p class="chatbox__description--header">Get to know SWAP.IT now.</p>
                                     </div>
                                 </Col>
