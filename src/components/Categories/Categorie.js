@@ -4,6 +4,8 @@ import { Link } from "react-router-dom"
 
 import image4 from './baner-right-image-04.jpg'
 import ps from './ps.jpg';
+import furn from './furniture.jpg';
+import books from './books.jpg';
 
 function Categrie() {
     return (
@@ -21,7 +23,7 @@ function Categrie() {
                                             <Link to="/swap">Swap Now!</Link>
                                         </div>
                                     </div>
-                                    <img src={image4} alt="" />
+                                    <img style={{ height: '647px' }} src={image4} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -45,7 +47,7 @@ function Categrie() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <img style={{ maxHeight: '270px' }} src={ps} alt="image1" />
+                                                <img style={{ maxHeight: '308px' }} src={ps} alt="image1" />
                                             </div>
                                         </div>
                                     </div>
@@ -65,7 +67,7 @@ function Categrie() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <img src={image4} alt="image2" />
+                                                <img src={furn} alt="image2" />
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +87,7 @@ function Categrie() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <img src={image4} alt="image4" />
+                                                <img src={books} alt="image4" />
                                             </div>
                                         </div>
                                     </div>
